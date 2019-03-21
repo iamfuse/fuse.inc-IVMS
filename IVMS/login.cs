@@ -32,5 +32,11 @@ namespace IVMS
             settings s = new settings();
             MainClass.showWindow(s, MDI.ActiveForm);
         }
+
+        private void loginBtn_Click(object sender, EventArgs e)
+        {
+            Home h = new Home();
+            MainClass.showWindow(h, this, MDI.ActiveForm);
+        }
     }
 }

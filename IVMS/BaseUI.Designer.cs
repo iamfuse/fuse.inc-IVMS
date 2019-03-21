@@ -117,8 +117,8 @@
 
         private System.Windows.Forms.Panel leftPanel;
         private System.Windows.Forms.Panel rightPanel;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel1;
+        protected System.Windows.Forms.Panel panel2;
+        protected System.Windows.Forms.Panel panel1;
         protected System.Windows.Forms.Panel bleftPanel;
         protected System.Windows.Forms.Panel brightPanel;
     }
