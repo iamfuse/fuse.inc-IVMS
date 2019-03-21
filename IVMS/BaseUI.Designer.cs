@@ -48,7 +48,7 @@
             this.leftPanel.Location = new System.Drawing.Point(0, 0);
             this.leftPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.leftPanel.Name = "leftPanel";
-            this.leftPanel.Size = new System.Drawing.Size(250, 921);
+            this.leftPanel.Size = new System.Drawing.Size(250, 771);
             this.leftPanel.TabIndex = 0;
             // 
             // bleftPanel
@@ -56,7 +56,7 @@
             this.bleftPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bleftPanel.Location = new System.Drawing.Point(0, 60);
             this.bleftPanel.Name = "bleftPanel";
-            this.bleftPanel.Size = new System.Drawing.Size(250, 861);
+            this.bleftPanel.Size = new System.Drawing.Size(250, 711);
             this.bleftPanel.TabIndex = 2;
             // 
             // panel2
@@ -76,7 +76,7 @@
             this.rightPanel.Location = new System.Drawing.Point(250, 0);
             this.rightPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rightPanel.Name = "rightPanel";
-            this.rightPanel.Size = new System.Drawing.Size(1291, 921);
+            this.rightPanel.Size = new System.Drawing.Size(1208, 771);
             this.rightPanel.TabIndex = 1;
             // 
             // brightPanel
@@ -84,7 +84,7 @@
             this.brightPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.brightPanel.Location = new System.Drawing.Point(0, 60);
             this.brightPanel.Name = "brightPanel";
-            this.brightPanel.Size = new System.Drawing.Size(1291, 861);
+            this.brightPanel.Size = new System.Drawing.Size(1208, 711);
             this.brightPanel.TabIndex = 3;
             // 
             // panel1
@@ -93,14 +93,14 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1291, 60);
+            this.panel1.Size = new System.Drawing.Size(1208, 60);
             this.panel1.TabIndex = 0;
             // 
             // BaseUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1541, 921);
+            this.ClientSize = new System.Drawing.Size(1458, 771);
             this.ControlBox = false;
             this.Controls.Add(this.rightPanel);
             this.Controls.Add(this.leftPanel);

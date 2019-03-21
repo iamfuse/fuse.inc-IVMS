@@ -10,22 +10,21 @@ using System.Windows.Forms;
 
 namespace IVMS
 {
-    public partial class BaseUI1 : BaseUI
+    public partial class Products : BaseUI1
     {
-        public BaseUI1()
+        public Products()
         {
             InitializeComponent();
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        private void Products_Load(object sender, EventArgs e)
         {
 
         }
-
-        public virtual void backBtn_Click(object sender, EventArgs e)
+        public override void backBtn_Click(object sender, EventArgs e)
         {
-            Home h = new Home();
-            MainClass.showWindow(h, this, MDI.ActiveForm);
+            Purchases p = new Purchases();
+            MainClass.showWindow(p, this, MDI.ActiveForm);
         }
     }
 }

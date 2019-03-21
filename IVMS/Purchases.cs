@@ -22,5 +22,11 @@ namespace IVMS
             Home h = new Home();
             MainClass.showWindow(h, MDI.ActiveForm);
         }
+
+        private void addprodBtn_Click(object sender, EventArgs e)
+        {
+            Products p = new Products();
+            MainClass.showWindow(p, MDI.ActiveForm);
+        }
     }
 }
